@@ -11,35 +11,8 @@
     padding: 0px 16px;
     display: flex;
     align-items: center;
-    align-content: space-between;
-}
-.search{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    background: #ffffff;
-    border: 1px solid rgb(212, 212, 212);
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-left: 216px;
-}
-input{
-    flex: 1;
-    font-size: 16px;
-    text-align: left;
-    border: none;
-    outline: none;
-    padding: 12px 180px;
-}
-button{
-    background-color: #f7f7f7;
-    border: none;
-    border-left: 1px solid  rgb(212, 212, 212);
-    padding: 20px 32px;
-    font-size: 21px;
-    cursor: pointer;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    
 }
 .logos{
     height: 56px;
@@ -56,13 +29,85 @@ button{
    width: 160px; 
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+   
+}
+input{
+    flex: 1;
+    font-size: 16px;
+    border: 1px solid rgb(212, 212, 212);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+    width:484px ;
+    height:40px ;
+    padding: 0px 4px 0px 16px;
+}
+button{
+    background-color: #f7f7f7;
+    height: 40px;
+    width: 64px;
+    border: 1px solid rgb(212, 212, 212);
+    border-left: none;
+    padding: 1px 6px;
+    font-size: 21px;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.mic{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   font-size: 18px;
+}
+
+.profile{
+    height: 40px;
+    width: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.prof-icon{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+.prof-icon i{
+   font-size: 24px;
+}
+.prof-icon-main{
+    height: 34px;
+    width: 60px;
+}
+.prof-icon-main img{
+    border-radius: 50%;
+    padding: 1px 6px;
+}
+
+
 .side-section{
     margin-top:8px;
     width: 432px;
     display: flex;
     float: right;
+    flex-direction: column;
     height: max-content;
     background-color: green;
+}
+.videos img{
+    width: 176px;
+    height: 100px;
+    border-radius: 8px;
 }
 .main-section{
     margin: 0px 0px 0px 24px;
