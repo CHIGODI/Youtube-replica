@@ -95,14 +95,31 @@ button{
 }
 
 
+/*-----side section styling----*/
 .side-section{
-    margin-top:8px;
-    width: 432px;
+    width: 368px;
     display: flex;
     float: right;
     flex-direction: column;
-    height: max-content;
-    background-color: green;
+    height: max-content; 
+    padding: 24px 0px 0px 0px;   
+    margin: 0px 72px 0px 0px;
+   
+}
+.videos-header{
+    width: 368px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid  rgb(212, 212, 212);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+   
+}
+.icons select{
+    border: none;
 }
 .videos img{
     width: 176px;
@@ -110,10 +127,11 @@ button{
     border-radius: 8px;
 }
 .main-section{
-    margin: 0px 0px 0px 24px;
-    padding: 24px 24px 0px 0px;
+    margin: 0px 0px 0px 72px;
+    padding: 24px 0px 0px 0px;
     width: 832px;
     height: max-content;
+    
 }
     
 .main-section iframe{
