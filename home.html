@@ -11,15 +11,18 @@
 <body>
     <section class="top-section">
         <div class="logos">
-            <i class="fas fa-bars"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF0000">
-                <path d="M23.7 7.6c-.3-1.2-1.2-2.1-2.4-2.4C19.6 5 12 5 12 5S4.4 5 2.7 5.2C1.5 5.5.6 6.4.3 7.6 .5 9.3.5 12 .5 12s0 2.7 .2 4.4c.3 1.2 1.2 2.1 2.4 2.4C4.4 19 12 19 12 19s7.6 0 9.3-.2c1.2-.3 2.1-1.2 2.4-2.4 .2-1.7 .2-4.4 .2-4.4s0-2.7-.2-4.4zM9.5 15V9l5.5 3z"/>
-              </svg>
-              <p>YouTube</p>
+            <div class="menu-bar"><i class="fas fa-bars"></i></div>
+               <div class="logo">   
+                   <img src="images/YouTube-Logo.wine.svg" alt="Description of the SVG" />
+               </div>
         </div>
         <div class="search">
-            <input type="text" id="input-box" placeholder="Search">
-            <button onclick="addTask()"> <i class="fas fa-search light-icon"></i></button>
+            <div class="input-search">
+                <input type="text" id="input-box" placeholder="Search">
+            </div>
+            <div search-btn>
+                <button onclick="addTask()"> <i class="fas fa-search light-icon"></i></button>
+            </div>               
             <div class="mic">
                 <i class="fa-solid fa-microphone"></i>
             </div>  
