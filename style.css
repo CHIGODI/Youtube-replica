@@ -33,17 +33,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
-   
 }
+
 input{
     flex: 1;
     font-size: 16px;
+    font-family: roboto,Arial, sans-serif;
     border: 1px solid rgb(212, 212, 212);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     outline: none;
-    width:484px ;
+    width:544px ;
     height:40px ;
     padding: 0px 4px 0px 16px;
 }
@@ -66,7 +66,7 @@ button{
     display: flex;
     justify-content: center; 
     align-items: center;
-   font-size: 18px;
+    font-size: 18px;
 }
 
 .profile{
@@ -83,15 +83,15 @@ button{
     padding: 8px;
 }
 .prof-icon i{
-   font-size: 24px;
+   font-size: 20px;
 }
 .prof-icon-main{
     height: 34px;
     width: 60px;
+    padding: 1px 6px;
 }
 .prof-icon-main img{
     border-radius: 50%;
-    padding: 1px 6px;
 }
 
 
