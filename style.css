@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Arial');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto,Ariel,sans-serif;
 }
 
 
@@ -10,14 +13,21 @@
     height: 56px;
     padding: 0px 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center; 
-      
+    justify-content: space-between;  
 }
+
 .logos{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.menu-bar{
+    padding: 8px;
+}
+.fa-bars{
+    font-size: 20px;
+   line-height: 20px;
 }
 
 .logo{
@@ -28,15 +38,8 @@
 .logo img{
     height: 20px;
     width: 90px;
+}
 
-}
-.menu-bar{
-    padding: 8px;
-}
-.fa-bars{
-    font-size: 20px;
-   line-height: 20px;
-}
 .logos svg{
    height: 38px;
    width: 160px; 
@@ -47,8 +50,9 @@
     height: 40px;
     display: flex;
     align-items: center;
-     
+    justify-content: center;   
 }
+
 .input-search{
     display: flex;
     align-items: center;
@@ -66,6 +70,8 @@
 }
 
 input{
+    display: flex;
+    align-items: center;
     padding: 1px 0px;
     font-size: 16px;
     width:389px ;
@@ -74,8 +80,11 @@ input{
     border: none;  
 }
 .search-btn{
-  padding: 4px;  
-}
+    padding: 4px;
+    display: flex;
+    align-items: center;  
+  }
+  
 button{
     background-color: #f7f7f7;
     height: 40px;
@@ -132,7 +141,7 @@ button{
     flex-direction: column;
     height: max-content; 
     padding: 24px 24px 0px 0px;   
-    background-color:green;
+    
    
 }
 .videos-header{
@@ -150,19 +159,96 @@ button{
 .icons select{
     border: none;
 }
-.videos img{
-    width: 176px;
-    height: 100px;
-    border-radius: 8px;
+.videos{
+    margin: 4px 0px 0px 0px;
+    display: flex;
+    align-items: center;
 }
+
+.videos img{
+    width: 168px;
+    height: 94px;
+    border-radius: 8px;
+    margin: 0px 8px 0px 0px;
+}
+.description{
+   display: inline-block;
+    width: 112px;    
+}
+
+#title{
+    margin-bottom: 4px;
+    color:rgb(43, 43, 43) ;
+    font-weight: bold;
+    font-size: 14px;
+}
+#owner{
+    font-size: 14px;
+    color: #606060 ;
+}
+
+.description i{
+    display: inline-block;
+    font-size: 14px;
+}
+#views{
+    font-size: 14px;
+    color: #606060;
+}
+
+.videos-header-1{
+    width:312px ;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos-header-1 p{
+    text-align: center;
+    line-height: 34px;
+    width: 304px;
+    border:  1px solid rgb(216, 216, 216);
+    border-radius: 16px;
+}
+.slide-video{
+    display: flex;
+    align-items: centre;
+}
+
+.slide-video p{
+    display: inline-block;
+    line-height: 20px;
+}
+#all{
+    line-height: 32px;
+    width: 39.94px;
+    padding: 0px 12px;
+    margin: 8px 8px 8px 0px; 
+    background-color: rgb(15, 15, 15);
+    color: white; 
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#suggest{
+    line-height: 32px;
+    width: 181.36px;
+    padding: 0px 12px;
+    margin: 8px 8px 8px 0px;
+    background-color: rgb(241, 241, 241); 
+    color: rgb(26, 26, 26);
+    border-radius: 8px;
+
+}
+
 
 /*----main section styling---*/
 .main-section{
     margin: 0px 0px 0px 24px;
     padding: 24px 0px 0px 0px;
-    width: 640px;
-    background-color: yellow;
-    
+    width: 640px;    
 }
     
 .main-section iframe{
@@ -171,15 +257,35 @@ button{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.video-description{
+    height: fit-content;
+    width: 640px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 4px;
+   
+}
+.owner-icon{
+    display: flex;
+    align-items: center;
+}
+.owner-icon img{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.owner-icon p{
+    display: inline-block;
+    margin-right: 12px;
+}
+.sub{
+    border-radius: 32px;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 48px;
+}
